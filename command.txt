@@ -1,0 +1,13 @@
+java -Djava.library.path="C:\opencv\opencv\build\java\x64" -cp "PreProcessingAgent.jar;C:\JADE-all-4.5.0\JADE-bin-4.5.0\jade\lib\jade.jar;C:\opencv\opencv\build\java\opencv-330.jar;C:\commons-io-2.4.jar" jade.Boot -gui -local-port 1099 -host localhost preprocessing:jade.PreProcessingAgent
+java -Djava.library.path="C:\opencv\opencv\build\java\x64" -cp "CannyAgent.jar;C:\JADE-all-4.5.0\JADE-bin-4.5.0\jade\lib\jade.jar;C:\opencv\opencv\build\java\opencv-330.jar;C:\commons-io-2.4.jar" jade.Boot -gui -local-port 1099 -host localhost -container CannyAgent:jade.CannyAgent
+java -Djava.library.path="C:\opencv\opencv\build\java\x64" -cp "CommunicationAgent.jar;C:\JADE-all-4.5.0\JADE-bin-4.5.0\jade\lib\jade.jar;C:\opencv\opencv\build\java\opencv-330.jar;C:\commons-io-2.4.jar" jade.Boot -gui -local-port 1099 -host localhost -container CommunicationAgent:jade.CommunicationAgent
+java -Djava.library.path="C:\opencv\opencv\build\java\x64" -cp "HarrisAgent.jar;C:\JADE-all-4.5.0\JADE-bin-4.5.0\jade\lib\jade.jar;C:\opencv\opencv\build\java\opencv-330.jar;C:\commons-io-2.4.jar" jade.Boot -gui -local-port 1099 -host localhost -container HarrisAgent:jade.HarrisAgent
+java -Djava.library.path="C:\opencv\opencv\build\java\x64" -cp "ShiTomasiAgent.jar;C:\JADE-all-4.5.0\JADE-bin-4.5.0\jade\lib\jade.jar;C:\opencv\opencv\build\java\opencv-330.jar;C:\commons-io-2.4.jar" jade.Boot -gui -local-port 1099 -host localhost -container ShiTomasiAgent:jade.ShiTomasiAgent
+
+
+C:\datasets\close_range\images\asdasd.png
+
+c:\
+\\home\\pi
+
+\\close_range\\images\\asdasda
